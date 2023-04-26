@@ -23,6 +23,21 @@ html{
     font-weight: bold;
 }
 
+#quienes-somos{
+    background-color: var(--black);
+    font-family: var(--raleway);
+    color: var(--white);
+}
+
+.icon-container{
+    background-color: var(--light-blue);
+}
+
+#quienes-somos-titulo{
+    text-transform: uppercase;
+
+}
+
 svg{
     width: 2.5em;
     height: 2.5em;
