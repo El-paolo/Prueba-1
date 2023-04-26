@@ -17,7 +17,7 @@
 <body>
 
 
-    <section id="hero">
+    <section id="inicio">
 
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="navbar">
             <div class="container">
@@ -97,10 +97,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                        <a class="nav-link  d-none d-md-block" href="#">Quienes somos</a>
-                        <a class="nav-link  " href="#">Destacados</a>
-                        <a class="nav-link">Contacto</a>
+                        <a class="nav-link active" aria-current="page" href="#inicio" smoothScroll="true" >Inicio</a>
+                        <a class="nav-link  d-none d-md-block" href="#quienes-somos" smoothScroll="true" >Quienes somos</a>
+                        <a class="nav-link  " href="#destacados" smoothScroll="true" >Destacados</a>
+                        <a class="nav-link" href="#contacto" smoothScroll="true" >Contacto</a>
                     </div>
                 </div>
             </div>
@@ -170,15 +170,17 @@
 
     </section>
 
-    <section id="destacados" class="py-5" >
+    <section id="destacados" class="py-5">
 
-        <h2 class="text-center text-uppercase " >Destacados</h2>
+        <h2 class="text-center text-uppercase ">Destacados</h2>
         <hr class="linea-separadora container">
 
-        <div id="cards-container " class=" py-2 container d-flex flex-column justify-content-lg-between justify-md-content-center justify-content-xl-between  justify-content-xxl-between flex-lg-row flex-xl-row flex-xxl-row ">
+        <div id="cards-container "
+            class=" py-2 container d-flex flex-column justify-content-lg-between  justify-content-xl-between  justify-content-xxl-between flex-lg-row flex-xl-row flex-xxl-row ">
             <div class="card my-3 mx-auto" style="width: 18rem;">
                 <img src="/assets/img/card1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
+                    <h5 class="card-title related-recipe-title text-center ">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
                 </div>
@@ -186,6 +188,7 @@
             <div class="card my-3 mx-auto" style="width: 18rem;">
                 <img src="/assets/img/card2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
+                    <h5 class="card-title related-recipe-title text-center ">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
                 </div>
@@ -193,6 +196,7 @@
             <div class="card my-3 mx-auto " style="width: 18rem;">
                 <img src="/assets/img/card3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
+                    <h5 class="card-title related-recipe-title text-center ">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
                 </div>
@@ -200,6 +204,7 @@
             <div class="card my-3 mx-auto" style="width: 18rem;">
                 <img src="/assets/img/card4.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
+                    <h5 class="card-title related-recipe-title text-center ">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
                 </div>
@@ -207,12 +212,41 @@
         </div>
     </section>
 
-    <section id="contacto">
+    <section id="contacto" class="py-5">
+        <h2 class="text-center text-uppercase ">Contacto</h2>
         <hr class="linea-separadora container ">
+
+        <div class="container" >
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" >
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="exampleFormControlInput2" >
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        
+            <button type="button" class="btn button">Enviar</button>
+
+        </div>
     </section>
 
-    <footer id="footer"></footer>
-
+    <footer id="footer" class="py-5"  >
+        <div class="container d-flex justify-content-between" ><h2 id="titulo-footer" class="text-uppercase ">Viajes Chile</h2>
+        <div class="icons  " >
+            <i class="fa-brands fa-github fa-2xl mx-1 "  style="color: #ffffff;"><a href="https://github.com/"></a></i>
+            <i class="fa-brands fa-linkedin fa-2xl mx-1 " style="color: #ffffff;"><a href="https://www.linkedin.com/in/paolo-cordova-miranda/"></a></i>
+            <i class="fa-brands fa-square-twitter fa-2xl mx-1" style="color: #ffffff;"><a href="https://twitter.com/"></a></i>
+            <i class="fa-brands fa-square-facebook fa-2xl mx-1 " style="color: #ffffff;"><a href="https://es-la.facebook.com/"></a></i>
+            
+            
+        </div>
+        </footer>
+        </div>
     <script src="https://kit.fontawesome.com/6d704114c3.js" crossorigin="anonymous"></script>
     <script src="/assets/js/scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"

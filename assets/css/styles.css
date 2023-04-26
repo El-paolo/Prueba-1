@@ -43,10 +43,32 @@ html{
     color: var(--white);
 }
 
+
+#contacto{
+    background-color: var(--black);
+    font-family: var(--raleway);
+    color: var(--white);
+}
 .card{
     background-color: var(--light-blue);
     color: var(--white);
     
+}
+
+.button{
+    background-color: var(--light-blue);
+    font-family: var(--raleway);
+    color: var(--white);
+}
+
+#footer-titulo{
+
+}
+
+
+#footer{
+    background-color: var(--light-blue);
+    color: var(--white);
 }
 
 svg{
