@@ -19,6 +19,10 @@
 
     <section id="inicio">
 
+
+
+        <!-- navbar componente de bootstrap -->
+        <!-- navbar también usa js -->
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="navbar">
             <div class="container">
                 <a class="navbar-brand " id="titulo" href="#"> <svg id="Layer_1" enable-background="new 0 0 512 512"
@@ -107,6 +111,7 @@
             </div>
         </nav>
 
+            <!-- carusel con js de bootstrap -->
 
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -176,9 +181,11 @@
         <h2 class="text-center text-uppercase ">Destacados</h2>
         <hr class="linea-separadora container">
 
+        <!-- cards de bootstrap -->
+
         <div id="cards-container "
             class=" py-2 container d-flex flex-column justify-content-lg-between  justify-content-xl-between  justify-content-xxl-between flex-lg-row flex-xl-row flex-xxl-row ">
-            <div class="card my-3 mx-auto" style="width: 18rem;">
+            <div class="card my-3 mx-auto" style="width: 15rem;">
                 <img src="/assets/img/card1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title related-recipe-title text-center ">Card title</h5>
@@ -186,7 +193,7 @@
                         card's content.</p>
                 </div>
             </div>
-            <div class="card my-3 mx-auto" style="width: 18rem;">
+            <div class="card my-3 mx-auto" style="width: 15rem;">
                 <img src="/assets/img/card2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title related-recipe-title text-center ">Card title</h5>
@@ -194,7 +201,7 @@
                         card's content.</p>
                 </div>
             </div>
-            <div class="card my-3 mx-auto " style="width: 18rem;">
+            <div class="card my-3 mx-auto " style="width: 15rem;">
                 <img src="/assets/img/card3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title related-recipe-title text-center ">Card title</h5>
@@ -202,7 +209,7 @@
                         card's content.</p>
                 </div>
             </div>
-            <div class="card my-3 mx-auto" style="width: 18rem;">
+            <div class="card my-3 mx-auto" style="width: 15rem;">
                 <img src="/assets/img/card4.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title related-recipe-title text-center ">Card title</h5>
@@ -213,14 +220,16 @@
         </div>
     </section>
 
+    <!-- form de bootrsap -->
+
     <section id="contacto" class="py-5">
         <h2 class="text-center text-uppercase ">Contacto</h2>
         <hr class="linea-separadora container ">
 
         <div class="container">
             <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1">
+                <label for="exampleFormControlInput1" class="form-label" aria-placeholder="Juanito Perez" >Nombre</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Asunto</label>
