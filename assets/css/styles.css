@@ -3,7 +3,28 @@
     --black: #000000;
     --light-blue: #09DCE3;
     --white:#FFFFFF;
+
+}
+
+/* .navbar-bar{
+    background-color: transparent;
+} */
+
+html{
+    font-family: var(--raleway);
 }
 
 
+#navbar{
+    font-family: var(--raleway);
+}
+
+#titulo{
+    font-weight: bold;
+}
+
+svg{
+    width: 2.5em;
+    height: 2.5em;
+}
 
