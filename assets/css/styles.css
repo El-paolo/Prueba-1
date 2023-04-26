@@ -33,9 +33,20 @@ html{
     background-color: var(--light-blue);
 }
 
-#quienes-somos-titulo{
-    text-transform: uppercase;
 
+
+
+
+#destacados{
+    background-color: var(--black);
+    font-family: var(--raleway);
+    color: var(--white);
+}
+
+.card{
+    background-color: var(--light-blue);
+    color: var(--white);
+    
 }
 
 svg{

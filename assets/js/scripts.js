@@ -1,4 +1,4 @@
-let nav = document.queryselector('nav');
+let nav = document.querySelector('nav');
 
 window.addEventListener('scroll', ()=>{
     if(window.scrollY > 100){
@@ -7,3 +7,4 @@ window.addEventListener('scroll', ()=>{
         nav.classList.remove('bg-dark');
     }
 });
+
